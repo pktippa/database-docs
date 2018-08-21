@@ -32,3 +32,9 @@ WITH (
 ALTER TABLE public.table_name
   OWNER TO postgres;
 ```
+
+### Deleting records
+
+```sql
+DELETE from  public.table_name;
+```
