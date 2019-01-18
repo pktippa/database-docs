@@ -1,5 +1,9 @@
 # Postgres
 
+## Database Related
+
+[Database](database.md)
+
 ## SQLs
 
 ### DB creation
@@ -38,3 +42,4 @@ ALTER TABLE public.table_name
 ```sql
 DELETE from  public.table_name;
 ```
+
