@@ -24,6 +24,12 @@ alter role temp with login;
 grant postgres to temp;
 ```
 
+## Setting up password
+
+```psql
+\password temp;
+```
+
 ## Verifying the new superuser
 
 ```psql
