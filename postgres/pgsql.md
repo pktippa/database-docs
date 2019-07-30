@@ -21,3 +21,9 @@ psql -U postgres -d database_name
 # -- dont add semicolon at the end
 # \sf <function_name>
 ```
+
+## Copying data to outside
+
+```psql
+# Copy (Select * From foo) To '/tmp/test.csv' With CSV DELIMITER ',';
+```
